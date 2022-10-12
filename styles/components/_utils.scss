@@ -1,0 +1,17 @@
+.btn {
+  outline: none;
+  border: none;
+  border-radius: 0;
+  padding: .5rem 1rem;
+  border-radius: $radius;
+  background-color: $secondary;
+  font-weight: 700;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+
+  &__primary {
+    background-color: $primary;
+    color: rgba($color: #fff, $alpha: 0.95);
+  }
+}
